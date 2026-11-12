@@ -1,0 +1,15 @@
+/* AuraFem Flutter app palette */
+:root{
+ --plum:#560B65;--deep:#390747;--magenta:#D71982;--pink:#F34B9C;
+ --pale:#FFF4FC;--bg:#FFF9FE;--surface:rgba(255,255,255,.90);--surface2:#FFF0F9;
+ --text:#390747;--muted:#806B89;--border:#EBD2EF;
+ --shadow:0 8px 26px rgba(86,11,101,.075),0 2px 6px rgba(86,11,101,.035);
+ --ok:#258A69;--warn:#C98A12;--danger:#C62F4B;--accent:var(--plum);
+ --magenta-rgb:215,25,130;--plum-rgb:86,11,101;--deep-rgb:57,7,71;--r:18px;--side:258px;--ease:cubic-bezier(.215,.61,.355,1);
+ color-scheme:light;
+}
+[data-theme=dark]{
+ --bg:#160A1D;--surface:#21122A;--surface2:#2D1937;--text:#F9EFFA;
+ --muted:#BBA8C5;--border:#4A3155;--shadow:0 10px 30px rgba(0,0,0,.3);
+ --accent:#F34B9C;--pale:#321A3B;color-scheme:dark;
+}
